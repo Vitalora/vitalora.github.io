@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -11,12 +10,12 @@
 
 body{
 margin:0;
-font-family:Arial,sans-serif;
-background:linear-gradient(180deg,#dff7df,#ffffff);
+font-family:Arial,Helvetica,sans-serif;
+background:#eef7f0;
 display:flex;
 justify-content:center;
 align-items:center;
-height:100vh;
+min-height:100vh;
 }
 
 .card{
@@ -24,38 +23,55 @@ height:100vh;
 background:white;
 
 width:90%;
-
 max-width:420px;
+
+border-radius:25px;
 
 padding:35px;
 
-border-radius:20px;
+text-align:center;
 
 box-shadow:0 10px 30px rgba(0,0,0,.15);
-
-text-align:center;
 
 }
 
 .logo{
 
-font-size:65px;
+width:90px;
+
+height:90px;
+
+margin:auto;
+
+border-radius:50%;
+
+background:#d8f3dc;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+font-size:40px;
+
+margin-bottom:20px;
 
 }
 
 h1{
 
-margin:10px 0;
+margin:0;
 
-color:#2e7d32;
+color:#1b4332;
 
 }
 
 p{
 
-color:#666;
+color:#555;
 
-margin-bottom:30px;
+margin-top:10px;
 
 }
 
@@ -65,19 +81,17 @@ display:block;
 
 text-decoration:none;
 
-background:#2e7d32;
+padding:15px;
+
+margin-top:15px;
+
+background:#2d6a4f;
 
 color:white;
-
-padding:16px;
-
-margin:15px 0;
 
 border-radius:12px;
 
 font-size:18px;
-
-font-weight:bold;
 
 transition:.3s;
 
@@ -85,7 +99,27 @@ transition:.3s;
 
 .button:hover{
 
-background:#256428;
+background:#40916c;
+
+}
+
+.footer{
+
+margin-top:25px;
+
+font-size:13px;
+
+color:#777;
+
+}
+
+.footer a{
+
+text-decoration:none;
+
+color:#2d6a4f;
+
+margin:0 8px;
 
 }
 
@@ -97,17 +131,37 @@ background:#256428;
 
 <div class="card">
 
-<div class="logo">🌿V</div>
+<div class="logo">
+V
+</div>
 
-<h1>VITALORA</h1>
+<h1>Vitalora</h1>
 
-<p>Wellness starts with informed choices</p>
+<p>
+Helping you discover wellness products and special offers.
+</p>
 
-<a class="button" href="#">🇲🇽 Mexico</a>
+<a class="button" href="#">
+🇺🇸 United States
+</a>
 
-<a class="button" href="#">🇵🇪 Peru</a>
+<a class="button" href="#">
+🇲🇽 México
+</a>
 
-<a class="button" href="#">🇺🇸 USA / Puerto Rico</a>
+<a class="button" href="#">
+🇵🇪 Perú
+</a>
+
+<div class="footer">
+
+<a href="#">Privacy</a>
+
+<a href="#">Disclaimer</a>
+
+<a href="#">Contact</a>
+
+</div>
 
 </div>
 
