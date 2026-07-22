@@ -1,3 +1,8 @@
+// ===============================
+// Vitalora Script V2
+// Accordion + Language System
+// ===============================
+
 const accordions = document.querySelectorAll(".accordion");
 
 accordions.forEach((accordion) => {
@@ -8,13 +13,13 @@ this.classList.toggle("active");
 
 const panel = this.nextElementSibling;
 
-if (panel.style.display === "block") {
+if(panel.style.display==="block"){
 
-panel.style.display = "none";
+panel.style.display="none";
 
-} else {
+}else{
 
-panel.style.display = "block";
+panel.style.display="block";
 
 }
 
@@ -22,7 +27,7 @@ panel.style.display = "block";
 
 });
 
-const translations = {
+const translations={
 
 en:{
 
@@ -91,6 +96,9 @@ fitnessTitle:"💪 Energía y Fitness",
 coming:"Próximamente"
 
 }
+
+};
+
 function setLanguage(lang){
 
 const t = translations[lang];
@@ -132,9 +140,8 @@ document.getElementById("coming3").textContent = t.coming;
 document.getElementById("coming4").textContent = t.coming;
 
 localStorage.setItem("language",lang);
-
-  }
-};document.getElementById("enBtn").addEventListener("click",function(){
+  
+  document.getElementById("enBtn").addEventListener("click",function(){
 
 setLanguage("en");
 
@@ -149,3 +156,5 @@ setLanguage("es");
 const savedLanguage = localStorage.getItem("language") || "en";
 
 setLanguage(savedLanguage);
+
+}
