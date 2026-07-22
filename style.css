@@ -396,3 +396,49 @@ transform:scale(.98);
 transform:scale(.99);
 
   }
+
+.footer{
+
+margin-top:60px;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+gap:12px;
+
+flex-wrap:wrap;
+
+font-size:15px;
+
+color:#6b7d72;
+
+padding:30px 10px;
+
+}
+
+.footer a{
+
+text-decoration:none;
+
+color:#2f6b4f;
+
+font-weight:600;
+
+transition:.25s;
+
+}
+
+.footer a:hover{
+
+color:#15803d;
+
+}
+
+.footer span{
+
+color:#9aa8a0;
+
+}
