@@ -158,5 +158,3 @@ setLanguage(savedLanguage);
 });
 
 }
-
-alert("Script Loaded");
