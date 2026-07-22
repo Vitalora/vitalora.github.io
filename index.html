@@ -3,168 +3,100 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Vitalora</title>
 
-<style>
-
-body{
-margin:0;
-font-family:Arial,Helvetica,sans-serif;
-background:#eef7f0;
-display:flex;
-justify-content:center;
-align-items:center;
-min-height:100vh;
-}
-
-.card{
-
-background:white;
-
-width:90%;
-max-width:420px;
-
-border-radius:25px;
-
-padding:35px;
-
-text-align:center;
-
-box-shadow:0 10px 30px rgba(0,0,0,.15);
-
-}
-
-.logo{
-
-width:90px;
-
-height:90px;
-
-margin:auto;
-
-border-radius:50%;
-
-background:#d8f3dc;
-
-display:flex;
-
-align-items:center;
-
-justify-content:center;
-
-font-size:40px;
-
-margin-bottom:20px;
-
-}
-
-h1{
-
-margin:0;
-
-color:#1b4332;
-
-}
-
-p{
-
-color:#555;
-
-margin-top:10px;
-
-}
-
-.button{
-
-display:block;
-
-text-decoration:none;
-
-padding:15px;
-
-margin-top:15px;
-
-background:#2d6a4f;
-
-color:white;
-
-border-radius:12px;
-
-font-size:18px;
-
-transition:.3s;
-
-}
-
-.button:hover{
-
-background:#40916c;
-
-}
-
-.footer{
-
-margin-top:25px;
-
-font-size:13px;
-
-color:#777;
-
-}
-
-.footer a{
-
-text-decoration:none;
-
-color:#2d6a4f;
-
-margin:0 8px;
-
-}
-
-</style>
+<link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-<div class="card">
+<div class="container">
 
-<div class="logo">
-V
-</div>
+<h1>🌿 Vitalora</h1>
 
-<h1>Vitalora</h1>
-
-<p>
-Helping you discover wellness products and special offers.
+<p class="subtitle">
+Choose a Wellness Category
 </p>
 
-<a class="button" href="#">
-🇺🇸 United States
+<div class="category">
+
+<button class="accordion">
+🍵 Weight Wellness
+</button>
+
+<div class="panel">
+
+<button class="accordion second">
+🍵 Matcha Series
+</button>
+
+<div class="panel">
+
+<p class="country-title">
+View Available Countries
+</p>
+
+<a class="country-card"
+href="https://uh7799a079uh.uewhbgfvds.cc/?target=-7EBNQCgQAAAd2JQUD-JQABQEBEREKEQkKEQ1CEQ0SAAF_YWRjb21ibwEx">
+
+🇺🇸 United States & Puerto Rico
+<br>
+<span>🍵 Matcha Suri</span>
+
 </a>
 
-<a class="button" href="#">
+<a class="country-card"
+href="https://uh7799a079uh.uewhbgfvds.cc/?target=-7EBNQCgQAAAd2JQUDBIQABQEBEREKEQkKEQ1CEQ0SAAF_YWRjb21ibwEx">
+
 🇲🇽 México
+<br>
+<span>🍵 Matcha Suri</span>
+
 </a>
 
-<a class="button" href="#">
+<a class="country-card"
+href="https://uh7799a079uh.uewhbgfvds.cc/?target=-7EBNQCgQAAAd2JQUDsIEABQEBEREKEQkKEQ1CEQ0SAAF_YWRjb21ibwEx">
+
 🇵🇪 Perú
+<br>
+<span>🍵 Matcha Slim</span>
+
 </a>
 
-<div class="footer">
-
-<a href="#">Privacy</a>
-
-<a href="#">Disclaimer</a>
-
-<a href="#">Contact</a>
+</div>
 
 </div>
 
 </div>
+
+<button class="disabled">
+😴 Sleep & Comfort
+<br>
+<small>Coming Soon</small>
+</button>
+
+<button class="disabled">
+✨ Beauty & Skin
+<br>
+<small>Coming Soon</small>
+</button>
+
+<button class="disabled">
+❤️ Heart Health
+<br>
+<small>Coming Soon</small>
+</button>
+
+<button class="disabled">
+💪 Fitness & Energy
+<br>
+<small>Coming Soon</small>
+</button>
+
+</div>
+
+<script src="script.js"></script>
 
 </body>
-
 </html>
