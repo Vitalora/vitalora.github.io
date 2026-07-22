@@ -141,21 +141,21 @@ document.getElementById("coming4").textContent = t.coming;
 
 localStorage.setItem("language",lang);
   
-  document.getElementById("enBtn").addEventListener("click",function(){
+  document.addEventListener("DOMContentLoaded", function () {
 
-setLanguage("en");
-
+document.getElementById("enBtn").addEventListener("click", function () {
+    setLanguage("en");
 });
 
-document.getElementById("esBtn").addEventListener("click",function(){
-
-setLanguage("es");
-
+document.getElementById("esBtn").addEventListener("click", function () {
+    setLanguage("es");
 });
 
 const savedLanguage = localStorage.getItem("language") || "en";
 
 setLanguage(savedLanguage);
+
+});
 
 }
 
