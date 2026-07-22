@@ -158,3 +158,5 @@ const savedLanguage = localStorage.getItem("language") || "en";
 setLanguage(savedLanguage);
 
 }
+
+alert("Script Loaded");
