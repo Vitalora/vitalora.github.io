@@ -442,3 +442,55 @@ color:#15803d;
 color:#9aa8a0;
 
 }
+
+.language-switch{
+
+display:flex;
+
+justify-content:center;
+
+gap:12px;
+
+margin:25px 0 35px;
+
+flex-wrap:wrap;
+
+}
+
+.language-switch button{
+
+border:none;
+
+cursor:pointer;
+
+padding:10px 18px;
+
+border-radius:12px;
+
+background:rgba(255,255,255,.75);
+
+backdrop-filter:blur(12px);
+
+-webkit-backdrop-filter:blur(12px);
+
+font-size:15px;
+
+font-weight:700;
+
+color:#1f5b41;
+
+box-shadow:0 6px 20px rgba(0,0,0,.08);
+
+transition:.25s;
+
+}
+
+.language-switch button:hover{
+
+transform:translateY(-2px);
+
+background:#ffffff;
+
+box-shadow:0 10px 24px rgba(0,0,0,.12);
+
+}
