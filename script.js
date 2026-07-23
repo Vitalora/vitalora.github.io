@@ -143,12 +143,19 @@ localStorage.setItem("language",lang);
   
   document.addEventListener("DOMContentLoaded", function () {
 
-document.getElementById("enBtn").addEventListener("click", function () {
-    setLanguage("en");
-});
+    document.getElementById("enBtn").addEventListener("click", function () {
 
-document.getElementById("esBtn").addEventListener("click", function () {
-    setLanguage("es");
+alert("English Click");
+
+setLanguage("en");
+
+});
+    document.getElementById("esBtn").addEventListener("click", function () {
+
+alert("Spanish Click");
+
+setLanguage("es");
+
 });
 
 const savedLanguage = localStorage.getItem("language") || "en";
